@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Astronomy Picture of the Day</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img class="logo-nasa" src="https://api.nasa.gov/assets/img/favicons/favicon-192.png">
+
+            <nav>
+                <a class="box primeira" href="https://apod.nasa.gov/apod/archivepix.html">Archive</a>
+                <a class="box segunda" href="https://apod.nasa.gov/apod/lib/apsubmit2015.html">Submissions</a>
+                <a class="box terceira" href="https://apod.nasa.gov/apod/lib/aptree.html">Index</a>
+                <a class="box quarta" href="https://antwrp.gsfc.nasa.gov/cgi-bin/apod/apod_search">Search</a>
+                <a class="box quinta" href="https://apod.nasa.gov/apod/calendar/allyears.html">Calendar</a>
+                <a class="box sexta" href="https://apod.nasa.gov/apod.rss">RSS</a>
+                <a class="box setima" href="https://apod.nasa.gov/apod/lib/edlinks.html">Education</a>
+                <a class="box oitava" href="https://apod.nasa.gov/apod/lib/about_apod.html">About APOD</a>
+                <a class="box nona" href="http://asterisk.apod.com/discuss_apod.php?date=201108">Discuss</a>
+            </nav>
+        </header>
+
+        <main>
+
+        <div class="container">
+            <h1>Astronomy Picture of the Day</h1>
+            <p><a href="https://apod.nasa.gov/apod/archivepix.html"> Discover the cosmos!</a> Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.</p>
+            <input id="data" type="date">
+            <button id="busca">Search</button>
+        </div>
+
+        <div class="js">
+
+            <p class="data-js"></p><br>
+            <div id="imgjs"></div><br>
+            <p class="titulo-js"></p><br>
+            <p class="explanation-js"></p>
+
+        </div>
+
+        </main>
+
+        <footer>
+            Authors & editors: <a href="http://www.phy.mtu.edu/faculty/Nemiroff.html">Robert Nemiroff</a> (<a href="http://www.phy.mtu.edu/">MTU</a>) & <a href="https://antwrp.gsfc.nasa.gov/htmltest/jbonnell/www/bonnell.html">Jerry Bonnell</a> (<a href="http://www.astro.umd.edu/">UMCP</a>)<br>
+            NASA Official: Phillip Newman <a href="https://apod.nasa.gov/apod/lib/about_apod.html#srapply">Specific rights apply</a>.<br>
+            <a href="https://www.nasa.gov/about/highlights/HP_Privacy.html">NASA Web Privacy Policy and Important Notices</a><br>
+            A service of: <a href="https://astrophysics.gsfc.nasa.gov/"> ASD</a> at <a href="https://www.nasa.gov/"> NASA</a> / <a href="https://www.nasa.gov/centers/goddard/"> GSFC </a><br>
+            & <a href="http://www.mtu.edu/">Michigan Tech. U.</a>
+        </footer>
+
+        <script src="mvc.js"></script>
+    </body>
+</html>

@@ -1,0 +1,143 @@
+@font-face {
+    font-family: SourceSansPro-Regular; src: url(fonte/SourceSansPro-Regular.ttf);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*margin: 1% 10% 0;*/
+    background-color: #e6e6e6;
+    width: 80%;
+    padding: 1% 10%;
+}
+
+.logo-nasa {
+    width: 100px;
+}
+
+.box {
+    text-decoration: none;
+    font-family: SourceSansPro-Regular;
+    font-size: 14px;
+    color: #212121;
+    padding: .85rem 1.25rem .85rem 1.25rem;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.box:hover {
+    color: #105bd8;
+    border-bottom: solid 3px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-size: 50px;
+    margin: 50px 15% 40px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.container p {
+    font-size: 20px;
+    font-family: SourceSansPro-Regular;
+    margin: 20px 15%;
+    text-align: center;
+}
+
+.container p a {
+    text-decoration: none;
+    color: #105bd8;
+}
+
+.container p a:hover {
+    text-decoration: underline;
+}
+
+.container #data {
+    margin: 25px 0 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: SourceSansPro-Regular;
+    background-color: white;
+}
+
+.container #busca {
+    font-family: SourceSansPro-Regular;
+    border: #105bd8 solid 3px;
+    width: 15%;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #105bd8;
+    color: white;
+    margin: 0 0 25px;
+    outline: none;
+}
+
+.container #busca:hover {
+    background-color: white;
+    color: #212121;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.js {
+    font-size: 20px;
+    font-family: SourceSansPro-Regular;
+    margin: 20px 15%;
+    text-align: justify;
+}
+
+.js .data-js {
+    text-align: center;
+}
+
+.js .titulo-js {
+    text-align: center;
+    font-weight: bold;
+}
+
+#imgjs {
+    display: flex;
+    justify-content: center;
+}
+
+#imgjs img {
+    width: 500px;
+}
+
+footer {
+    text-align: center;
+    font-family: SourceSansPro-Regular;
+    font-weight: bold;
+    color: #212121;
+    padding: 20px 0;
+    font-size: 14px;
+    background-color: #e6e6e6;
+}
+
+footer a {
+    text-decoration: none;
+    color: #105bd8;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/*Parte Mobile*/
+@media (max-width: 780px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
